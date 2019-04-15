@@ -1,0 +1,10 @@
+
+public class epkieusonguyen {
+ static double hientai=27, tiletang=1.5;
+ public static void main(String[] argn){
+     double tuonglai=hientai*tiletang;
+ System.out.println(tuonglai);
+         int xapxi= (int) tuonglai;
+ System.out.println("Tuong lai xap xi"+" "+xapxi);
+}
+}

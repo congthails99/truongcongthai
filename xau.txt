@@ -1,0 +1,16 @@
+public class baitap{
+    static int hanhkhach;
+    
+    public static void main(String[] argn){
+        
+        hanhkhach=0;
+        int benxe=0;
+        hanhkhach= hanhkhach +5;
+        benxe=benxe+1;
+        hanhkhach=hanhkhach-3;
+        benxe=benxe+1;
+        hanhkhach=hanhkhach-1+5;
+        benxe=benxe+1;
+        System.out.println("Xe bus di qua"+ " "  +benxe+  " ben va dang co"+" " +hanhkhach+" "+ "hanh khack" );
+    }
+}

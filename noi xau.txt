@@ -1,0 +1,9 @@
+
+public class noi_xau {
+    static String Toi="Yeu",  Em= "Bong da";
+   public static void main (String[] argn){
+    Toi=Toi.toLowerCase();
+    Em=Em.toUpperCase();
+    System.out.println("Toi"+" "+Toi+" "+Em);
+   }
+}

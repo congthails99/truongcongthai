@@ -1,0 +1,12 @@
+
+public class demxau {
+   static String tenlaixe; 
+   public static void main (String[] argn){
+   tenlaixe="Thai";
+   /* Lenh toUpperCase la in hoa tat ca, LowerCase la viet thuong  */
+   tenlaixe=tenlaixe.toUpperCase();
+   int dem= tenlaixe.length();
+   System.out.println(dem);
+   System.out.println(tenlaixe);
+}
+}
