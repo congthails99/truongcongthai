@@ -1,0 +1,18 @@
+
+    import java.util.Scanner ;
+    class User_PassWord{
+        public static void main(String[] args ){
+            System.out.println("nhap tai khoan va mat khau : ");
+            int user = 0507 , pass = 1999;
+            Scanner scanner = new Scanner(System.in);
+            do{
+                System.out.println("nhap tai khoan : ");
+                user = scanner . nextInt();
+                System.out.println("nhap mat khau : ");
+                pass = scanner.nextInt();
+            }while((user != 0507)||(pass!=1999));
+          System.out.println("xin chao " +user+ "\n" +  "moi ban thuc hien tac vu ");
+        }
+        
+    }
+
